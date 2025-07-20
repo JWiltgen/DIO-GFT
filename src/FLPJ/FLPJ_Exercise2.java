@@ -3,7 +3,7 @@ package FLPJ;
 // 1 - Fundamentos da Linguagem de Programação Java
 
 import java.util.Scanner;
-public class Exercise2 
+public class FLPJ_Exercise2 
 {
     public static void run() 
     {
@@ -19,6 +19,6 @@ public class Exercise2
         double area = lado * lado;
         // Print the calculated area to the console
         System.out.println("A área do quadrado é: " + area);
-        scanner.close(); // Close the scanner to prevent resource leaks
+         // Close the scanner to prevent resource leaks
     }
 }

@@ -3,7 +3,7 @@ package FLPJ;
 // 1 - Fundamentos da Linguagem de Programação Java
 
 import java.util.Scanner;
-public class Exercise3 
+public class FLPJ_Exercise3 
 {
     public static void run() 
     {
@@ -22,7 +22,7 @@ public class Exercise3
         double area = base * altura;
         // Print the calculated area to the console
         System.out.println("A área do retângulo é: " + area);
-        scanner.close(); // Close the scanner to prevent resource leaks
+         // Close the scanner to prevent resource leaks
     }
 }
     

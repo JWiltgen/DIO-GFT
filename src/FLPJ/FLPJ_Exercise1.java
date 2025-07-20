@@ -3,7 +3,7 @@ package FLPJ;
 // 1 - Fundamentos da Linguagem de Programação Java
 
 import java.util.Scanner;
-public class Exercise1 
+public class FLPJ_Exercise1 
 {
     public static void run() 
     {
@@ -22,8 +22,9 @@ public class Exercise1
         int anoNascimento = scanner.nextInt();
         // Calculate the user's age
         int idade = anoBase - anoNascimento;
+        System.out.println(); // Print a new line for better readability
         // Print a greeting message with the user's name and age
         System.out.println("Olá " + nome + ", você tem " + idade + " anos.");
-        scanner.close(); // Close the scanner to prevent resource leaks
+        // Close the scanner to prevent resource leaks
     }
 }

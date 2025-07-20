@@ -3,7 +3,7 @@ package FLPJ;
 // 1 - Fundamentos da Linguagem de Programação Java
 
 import java.util.Scanner;
-public class Exercise4 {
+public class FLPJ_Exercise4 {
     public  static void run() 
     {
         // This method calculates the age difference between two people based on user input.
@@ -31,6 +31,6 @@ public class Exercise4 {
         int diferencaIdade = Math.abs(idade1 - idade2);
         // Print the names and the age difference to the console
         System.out.println("A diferença de idade entre " + nome1 + " e " + nome2 + " é de " + diferencaIdade + " anos.");
-        scanner.close(); // Close the scanner to prevent resource leaks
+         // Close the scanner to prevent resource leaks
     }
 }
