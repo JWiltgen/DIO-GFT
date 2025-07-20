@@ -1,9 +1,12 @@
 package FLPJ;
 
 // 1 - Fundamentos da Linguagem de Programação Java
+
 import java.util.Scanner;
-public class Exercise2 {
-    public static void run() {
+public class Exercise2 
+{
+    public static void run() 
+    {
         // This method calculates the area of a square based on user input.
         // Prompt the user for the side length of the square
         System.out.println("Calculando a área de um quadrado.");
