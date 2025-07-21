@@ -31,29 +31,33 @@ public class FLPJ_Home
 
                             switch (exerciseOption) 
                                 {
-                                    case 1 -> {
-                                        System.out.println("Exercício 1 selecionado.");
-                                        // Call the run method of Exercise1 class to execute the exercise
-                                        FLPJ_Exercise1.run();
-                            }  
+                                    case 1 -> 
+                                        {
+                                            System.out.println("Exercício 1 selecionado.");
+                                            // Call the run method of Exercise1 class to execute the exercise
+                                            FLPJ_Exercise1.run();
+                                        }  
 
-                                    case 2 -> {
-                                        System.out.println("Exercício 2 selecionado.");
-                                        //Call the run method of Exercise2 class to execute the exercise
-                                        FLPJ_Exercise2.run();
-                            }
+                                    case 2 -> 
+                                        {
+                                            System.out.println("Exercício 2 selecionado.");
+                                            //Call the run method of Exercise2 class to execute the exercise
+                                            FLPJ_Exercise2.run();
+                                        }
                                                         
-                                    case 3 -> {
-                                        System.out.println("Exercício 3 selecionado.");
-                                        // Call the run method of Exercise3 class to execute the exercise
-                                        FLPJ_Exercise3.run();
-                            }
+                                    case 3 -> 
+                                        {
+                                            System.out.println("Exercício 3 selecionado.");
+                                            // Call the run method of Exercise3 class to execute the exercise
+                                            FLPJ_Exercise3.run();
+                                        }
 
-                                        case 4 -> {
-                                            System.out.println("Exercício 4 selecionado.");
-                                            // Call the run method of Exercise4 class to execute the exercise
-                                            FLPJ_Exercise4.run();
-                            }
+                                        case 4 -> 
+                                            {
+                                                System.out.println("Exercício 4 selecionado.");
+                                                // Call the run method of Exercise4 class to execute the exercise
+                                                FLPJ_Exercise4.run();
+                                            }
 
                                         default -> System.out.println("Invalid exercise option selected.");
 

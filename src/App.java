@@ -38,17 +38,19 @@ public class App
                         switch (option)
                             {
 
-                            case 1 -> {
-                                System.out.println("Opção 1 selecionada.");
-                                // Call the run method from the FLPJ_HOME class to execute the exercise
-                                FLPJ_Home.run();
-                        }
+                            case 1 -> 
+                                {
+                                    System.out.println("Opção 1 selecionada.");
+                                    // Call the run method from the FLPJ_HOME class to execute the exercise
+                                    FLPJ_Home.run();
+                                }
 
-                            case 2 -> {
-                                System.out.println("Opção 2 selecionada.");
-                                // Call the run method from the ECJ_Home class to execute the exercise
-                                ECJ_Home.run();
-                        }
+                            case 2 -> 
+                                {
+                                    System.out.println("Opção 2 selecionada.");
+                                    // Call the run method from the ECJ_Home class to execute the exercise
+                                    ECJ_Home.run();
+                                }
                             case 3 -> System.out.println("You selected option 3.");
                             case 4 -> System.out.println("You selected option 4.");
                             case 5 -> System.out.println("You selected option 5.");
