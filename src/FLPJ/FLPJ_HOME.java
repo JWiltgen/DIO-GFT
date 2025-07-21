@@ -1,61 +1,75 @@
 package FLPJ;
+
+// 1 - Fundamentos da linguagem de programação Java
+
 import java.util.Scanner;
 
-public class FLPJ_HOME 
-{
-    public static void run() 
+public class FLPJ_Home 
     {
-        var scanner = new Scanner(System.in);
-        int exerciseOption;
-        System.out.println("Opção 1 selecionada.");
-                        // Prompt the user to select an exercise within the first option
-                        System.out.println();
-                        System.out.println("Selecione qual exercício deseja executar:");
-                        System.out.println("1. Exercício 1");
-                        System.out.println("2. Exercício 2");
-                        System.out.println("3. Exercício 3");
-                        System.out.println("4. Exercício 4");
-                        System.out.println();
-                        System.out.print("Digite o número da opção desejada: ");
-                        
-                        exerciseOption = scanner.nextInt();
-                        // Use a switch statement to handle the user's choice of exercise
-                        System.out.println(); // Print a new line for better readability
+        public static void run() 
+                {   
+                    int exerciseOption;
+                    do
+                        {
+                            var scanner = new Scanner(System.in);
+                            // Prompt the user to select an exercise within the first option
+                            System.out.println();
+                            System.out.println("Selecione qual exercício deseja executar:");
+                            System.out.println("1. Exercício 1");
+                            System.out.println("2. Exercício 2");
+                            System.out.println("3. Exercício 3");
+                            System.out.println("4. Exercício 4");
+                            System.out.println("0. Sair");
+                            System.out.println();
+                            System.out.print("Digite o número da opção desejada: ");
+                                            
+                            exerciseOption = scanner.nextInt();
+                            // Use a switch statement to handle the user's choice of exercise
+                            System.out.println(); // Print a new line for better readability
 
-                        switch (exerciseOption) {
-                            case 1:
+                            switch (exerciseOption) 
+                                {
+                                    case 1:
 
-                                System.out.println("Exercício 1 selecionado.");
-                                // Call the run method of Exercise1 class to execute the exercise
-                                FLPJ_Exercise1.run();
-                                
-                                break;  
+                                        System.out.println("Exercício 1 selecionado.");
+                                        // Call the run method of Exercise1 class to execute the exercise
+                                        FLPJ_Exercise1.run();
+                                                        
+                                        break;  
 
-                            case 2:
+                                    case 2:
 
-                                System.out.println("Exercício 2 selecionado.");
-                                //Call the run method of Exercise2 class to execute the exercise
-                                FLPJ_Exercise2.run();
+                                        System.out.println("Exercício 2 selecionado.");
+                                        //Call the run method of Exercise2 class to execute the exercise
+                                        FLPJ_Exercise2.run();
 
-                                break;
-                                
-                            case 3:
+                                        break;
+                                                        
+                                    case 3:
 
-                                System.out.println("Exercício 3 selecionado.");
-                                // Call the run method of Exercise3 class to execute the exercise
-                                FLPJ_Exercise3.run();
-                                break;
+                                        System.out.println("Exercício 3 selecionado.");
+                                        // Call the run method of Exercise3 class to execute the exercise
+                                        FLPJ_Exercise3.run();
+                                        
+                                        break;
 
-                            case 4:
+                                        case 4:
 
-                                System.out.println("Exercício 4 selecionado.");
-                                // Call the run method of Exercise4 class to execute the exercise
-                                FLPJ_Exercise4.run();
-                                break;
+                                            System.out.println("Exercício 4 selecionado.");
+                                            // Call the run method of Exercise4 class to execute the exercise
+                                            FLPJ_Exercise4.run();
+                                            
+                                            break;
 
-                            default:
-                                System.out.println("Invalid exercise option selected.");
-                                break;
-                        }
-    }
-}
+                                        default:
+                                            System.out.println("Invalid exercise option selected.");
+                                            
+                                            break;
+
+                                }
+
+                        } while (exerciseOption != 0); // Continue until the user selects an option to exit{
+                            
+                }
+        }
+    
