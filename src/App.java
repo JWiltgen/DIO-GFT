@@ -39,35 +39,35 @@ public class App
                         switch (option)
                             {
 
-                                case 1:
-                                    System.out.println("Opção 1 selecionada.");
-                                    // Call the run method from the FLPJ_HOME class to execute the exercise
-                                    FLPJ_Home.run();
-                                    break;
+                            case 1:
+                                System.out.println("Opção 1 selecionada.");
+                                // Call the run method from the FLPJ_HOME class to execute the exercise
+                                FLPJ_Home.run();
+                                break;
 
-                                case 2:
-                                    System.out.println("Opção 2 selecionada.");
-                                    // Call the run method from the ECJ_Home class to execute the exercise
-                                    ECJ_Home.run();
-                                    break;
-                                case 3:
-                                    System.out.println("You selected option 3.");
-                                    break;
-                                case 4:
-                                    System.out.println("You selected option 4.");
-                                    break;
-                                case 5:
-                                    System.out.println("You selected option 5.");
-                                    break;
-                                case 6:
-                                    System.out.println("You selected option 6.");
-                                    break;
-                                case 0:
-                                    System.out.println("Saindo do aplicativo. Até logo!");
-                                    break;
-                                default:
-                                    System.out.println("Invalid option selected.");
-                                    break;
+                            case 2:
+                                System.out.println("Opção 2 selecionada.");
+                                // Call the run method from the ECJ_Home class to execute the exercise
+                                ECJ_Home.run();
+                                break;
+                            case 3:
+                                System.out.println("You selected option 3.");
+                                break;
+                            case 4:
+                                System.out.println("You selected option 4.");
+                                break;
+                            case 5:
+                                System.out.println("You selected option 5.");
+                                break;
+                            case 6:
+                                System.out.println("You selected option 6.");
+                                break;
+                            case 0:
+                                System.out.println("Saindo do aplicativo. Até logo!");
+                                break;
+                            default:
+                                System.out.println("Invalid option selected.");
+                                break;
                             }
                         
                     } while (option != 0); // Continue the loop until the user selects option 0 to exit{
