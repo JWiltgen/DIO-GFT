@@ -51,7 +51,9 @@ public class App
                                 ECJ_Home.run();
                                 break;
                             case 3:
-                                System.out.println("You selected option 3.");
+                                System.out.println("Opção 3 selecionada.");
+                                // Call the run method of JAACE_Home class to execute the exercise
+                                JAACE.JAACE_Home.run();
                                 break;
                             case 4:
                                 System.out.println("You selected option 4.");
