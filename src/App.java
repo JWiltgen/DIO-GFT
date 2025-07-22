@@ -1,7 +1,6 @@
-import java.util.Scanner;
-
-import FLPJ.FLPJ_Home;
 import ECJ.ECJ_Home;
+import FLPJ.FLPJ_Home;
+import java.util.Scanner;
 
 public class App 
     {
@@ -9,7 +8,7 @@ public class App
             {
                 // This is the main entry point of the Java application.
                 // It prompts the user to select an exercise to execute.
-                int option = 0; // Initialize option to 0 to enter the loop
+                int option; // Initialize option to 0 to enter the loop
                 do 
                     {
                         // Print a welcome message to the console
@@ -39,11 +38,12 @@ public class App
                         switch (option)
                             {
 
-                            case 1:
-                                System.out.println("Opção 1 selecionada.");
-                                // Call the run method from the FLPJ_HOME class to execute the exercise
-                                FLPJ_Home.run();
-                                break;
+                            case 1 -> 
+                                {
+                                    System.out.println("Opção 1 selecionada.");
+                                    // Call the run method from the FLPJ_HOME class to execute the exercise
+                                    FLPJ_Home.run();
+                                }
 
                             case 2:
                                 System.out.println("Opção 2 selecionada.");
@@ -51,9 +51,7 @@ public class App
                                 ECJ_Home.run();
                                 break;
                             case 3:
-                                System.out.println("Opção 3 selecionada.");
-                                // Call the run method of JAACE_Home class to execute the exercise
-                                JAACE.JAACE_Home.run();
+                                System.out.println("You selected option 3.");
                                 break;
                             case 4:
                                 System.out.println("You selected option 4.");
