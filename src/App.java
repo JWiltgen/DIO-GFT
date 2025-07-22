@@ -38,11 +38,12 @@ public class App
                         switch (option)
                             {
 
-                            case 1 -> 
+                            case 1:
                                 {
                                     System.out.println("Opção 1 selecionada.");
                                     // Call the run method from the FLPJ_HOME class to execute the exercise
                                     FLPJ_Home.run();
+                                    break;
                                 }
 
                             case 2:
