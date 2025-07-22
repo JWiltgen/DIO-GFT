@@ -1,6 +1,9 @@
 package JAACE.Exercise1;
 
+// 3 - Java e a Arte da Abstração com Classes e Encapsulamento
+
 import java.util.Scanner;
+
 
 public class Menu {
     public static void main(String[] args) {
@@ -14,6 +17,8 @@ public class Menu {
         //
         int opcao;
         do {
+
+
             System.out.println("\n=== MENU CONTA BANCÁRIA ===");
             System.out.println("1 - Consultar saldo");
             System.out.println("2 - Consultar cheque especial");
@@ -74,7 +79,7 @@ public class Menu {
                     break;
                 case 0:
                 // Exit the menu
-                    System.out.println("Saindo. Obrigado por usar o banco!");
+                    System.out.println("Saindo do aplicativo. Até logo!");
                     break;
                 default:
                     System.out.println("Opção inválida!");
@@ -82,6 +87,6 @@ public class Menu {
 
         } while (opcao != 0);
 
-        scanner.close();
+        
     }
 }

@@ -60,10 +60,10 @@ public class ECJ_Home
                                         break;
 
                                 case 0: 
-                                        System.out.println("Voltando ao menu principal.");
+                                        System.out.println("Saindo do aplicativo. Até logo!");
                                         break;
                                 default: 
-                                        System.out.println("Invalid exercise option selected.");
+                                        System.out.println("Opção inválida!");
                                         break;
                             }
 

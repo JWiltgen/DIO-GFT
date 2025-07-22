@@ -1,6 +1,10 @@
 package JAACE.Exercise1;
 
-public class ContaBancaria {
+// 3 - Java e a Arte da Abstração com Classes e Encapsulamento
+
+
+public class ContaBancaria 
+{
     // Attributes for the bank account
     private double saldo;
     // The cheque especial limit is set based on the initial deposit
@@ -14,8 +18,10 @@ public class ContaBancaria {
         // Set the cheque especial limit based on the initial deposit
         // If the initial deposit is less than or equal to 500, set a fixed limit
         if (depositoInicial <= 500) {
+            // Set a fixed cheque especial limit of R$ 50
             this.limiteChequeEspecial = 50.0;
         } else {
+            // If the initial deposit is greater than R$ 500, set the limit to 50% of the deposit
             this.limiteChequeEspecial = depositoInicial * 0.5;
         }
     }

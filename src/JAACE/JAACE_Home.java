@@ -1,5 +1,8 @@
 package JAACE;
 
+// 3 - Java e a Arte da Abstração com Classes e Encapsulamento
+
+
 import java.util.Scanner;
 
 
@@ -9,6 +12,8 @@ public class JAACE_Home {
         do {
             var scanner = new Scanner(System.in);
             // Prompt the user to select an exercise within the first option
+            System.out.println();
+            System.out.println("Bem vindo ao exercício de Java e a Arte da Abstração com Classes e Encapsulamento");
             System.out.println();
             System.out.println("Selecione qual exercício deseja executar:");
             System.out.println("1. Exercício 1");
@@ -33,7 +38,7 @@ public class JAACE_Home {
                 case 2:
                     System.out.println("Exercício 2 selecionado.");
                     // Call the run method of JAACE_Exercise2 class to execute the exercise
-                    //JAACE_Exercise2.run();
+                    JAACE_Exercise2.run();
                     break;
 
                 case 3:
