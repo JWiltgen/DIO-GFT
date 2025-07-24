@@ -26,6 +26,7 @@ public class JAACE_Home {
                                             
             exerciseOption = scanner.nextInt();
             // Use a switch statement to handle the user's choice of exercise
+
             System.out.println(); // Print a new line for better readability
 
             switch (exerciseOption) {
@@ -54,7 +55,7 @@ public class JAACE_Home {
                     break;
 
                 case 0:
-                    System.out.println("Saindo...");
+                    System.out.println("Saindo do aplicativo. Até logo!");
                     break;
 
                 default:

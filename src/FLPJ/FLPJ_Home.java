@@ -52,14 +52,20 @@ public class FLPJ_Home
                                             FLPJ_Exercise3.run();
                                         }
 
-                                        case 4 -> 
-                                            {
-                                                System.out.println("Exercício 4 selecionado.");
-                                                // Call the run method of Exercise4 class to execute the exercise
-                                                FLPJ_Exercise4.run();
-                                            }
+                                    case 4 -> 
+                                        {
+                                            System.out.println("Exercício 4 selecionado.");
+                                            // Call the run method of Exercise4 class to execute the exercise
+                                            FLPJ_Exercise4.run();
+                                        }
+                                    case 0 ->
 
-                                        default -> System.out.println("Invalid exercise option selected.");
+                                        {
+                                            System.out.println("Saindo do aplicativo. Até logo!");
+                                            break;
+                                        }
+                                        
+                                        default -> System.out.println("Opção inválida!");
 
                                 }
 
