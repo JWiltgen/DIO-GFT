@@ -72,5 +72,5 @@ public class FLPJ_Home
                         } while (exerciseOption != 0); // Continue until the user selects an option to exit{
                             
                 }
-        }
+    }
     
